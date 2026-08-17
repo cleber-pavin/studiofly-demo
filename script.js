@@ -4,7 +4,7 @@
   const $ = (selector, scope = document) => scope.querySelector(selector);
   const $$ = (selector, scope = document) => [...scope.querySelectorAll(selector)];
 
-  const WHATSAPP_NUMBER = "5511991557387";
+  const WHATSAPP_NUMBER = "5511933269402";
   const STUDIO_ADDRESS = "Rua Luiz Brito de Almeida, 1126, Jardim Arco-Íris, Salto - SP";
   const GOOGLE_DESTINATION = encodeURIComponent(STUDIO_ADDRESS);
   const reducedMotion = window.matchMedia?.("(prefers-reduced-motion: reduce)")?.matches ?? false;
